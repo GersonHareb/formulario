@@ -1,0 +1,314 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+:root{
+  font-size: 14px;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+span {
+  display: block;
+  background-color: #1cd1b0;
+  padding: 5px 0 5px 30px;
+}
+
+nav{
+  background-color: #001D2D;
+  height: 40px;
+}
+
+ul {
+  height: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+
+li {
+  margin-right: 20px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+header {
+  background-color: #00669f;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  height: 20px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.329);
+}
+
+header img{
+  width: 99px;
+}
+
+header h1 {
+  color: #FFFFFF;
+  font-weight:400 ;
+  font-size: 27px;
+  margin-left: 10px;
+}
+
+main {
+  max-width: 1200px;
+  margin: auto;
+}
+
+section {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.tarjeta {
+  position: relative;
+  width: 300px;
+  height: 480px;
+  background-color: #f0f0f0;
+  border-radius: 20px;
+  margin: 15px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.cuerpo-tarjeta {
+  position: relative;
+  top: 10%;
+  transform: translate(-1%, -105%);
+  padding-left: 18px;
+  padding-right: 18px;
+}
+
+.cuerpo-tarjeta h2 {
+  text-transform: uppercase;
+  font-weight: 400;
+  text-align: center;
+}
+h2.sin-mayus{
+    text-transform: none;
+}
+
+button {
+  position: inherit;
+  top: -20%;
+  transform: translate(61%, 40%);
+  width: 128.78px;
+  height: 48.52px;
+  color: #f3f3f3;
+  background-color: #00669f;
+  border: none;
+}
+
+.avatar-tarjeta {
+  top: 50%;
+  left: 50%;
+  transform: translate(74%, -57%);
+  border-radius: 70px;
+  width: 120px;
+  height: 118px;
+}
+
+.corazon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  font-size: 24px;
+  color: red;
+}
+
+.pelota{
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  width: 60px;
+  height: 60px;
+  border-radius:50% ;
+  color: #FFFFFF;
+  background-color: #00669f;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 500;
+  font-size: 40px;
+}
+
+footer{
+    color: #FFF9F9;
+    background-color: #00669f;
+    padding: 15px;
+    text-align: center;
+}
+
+/*Formulario*/
+.newhero{
+  width:900px ;
+  height: 850px;
+  background-color: #00669F;
+  color: #FFFFFF;
+  border-radius:49px;
+  margin: auto;
+  text-align: center;
+  margin: auto;
+  font-weight: 300;
+  font-size: 16px;  
+  position: relative;
+}
+
+.newhero h2{
+  font-size: 40px;
+  margin-bottom: -7PX;
+}
+
+.newhero-body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.form-group{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 15px;
+  width: 330px;
+  max-width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-group label{
+  padding-bottom: 15px;
+}
+
+.form-group input, select{
+  width: 100%;
+  padding: 15px 5px 15px 5px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+select:first-child{
+  color: rgba(128, 128, 128, 0.911)!important;
+}
+
+input[type="date"] {
+  font-size: 20px;
+  padding: 15px 15px 15px 5px;
+  max-width: 320px;
+}
+
+input[type="file"] {
+  font-size: 12px;
+  padding: 15px 60px 15px 0;
+}
+
+input[type="file"]::-webkit-file-upload-button {
+  padding: 7px 60px 7px 10px;  /* Aquí ajustas el tamaño */
+  background: #CECECE;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-size: 10px;
+  margin-right: 45px;
+}
+
+textarea{
+  width: 335px;
+  height: 215px;
+  margin-left: -1px;
+  padding: 10px 0 60px 10px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+}
+
+.form-group-textarea, .form-group-checks{
+  width: 350px;
+  max-width: 100%;
+
+}
+
+.form-group-choice{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.form-group-last{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 15px;
+  padding-top: 0;
+  width: 350px;
+  max-width: 100%;
+}
+
+.form-group-last:first-child{
+  padding-bottom: 0;
+}
+
+.form-group-last:last-child{
+  padding-top: 10px;
+}
+
+hr{
+  width: 300px;
+  margin-left: 30px;
+}
+
+fieldset {
+  border: none;
+  padding: 10px;
+  text-align: start;
+
+}
+
+fieldset label {
+  margin-left: 10px;
+  font-size: 13px;
+  line-height: 1.5;
+  vertical-align: middle;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  zoom: 1.8; 
+  vertical-align: middle; 
+}
+
+button{
+  position: absolute;
+  width: 466px;
+  height: 87px;
+  top: 87%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 501;
+  background-color:#1CD1B0 ;
+  color:#000000;
+  font-size: 40px;
+  border-radius: 23px;
+  font-weight:700 ;
+}
+

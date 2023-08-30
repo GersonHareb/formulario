@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarjetas</title>
+    <script
+      src="https://kit.fontawesome.com/33aec193ff.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <span>20% de descuento en todos los productos!</span>
+    <header>
+      <img src="./img/tienda.png" alt="">
+      <h1>Nombre Tienda</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="">Contacto</a></li>
+        <li><a href="">Registrarme</a></li>
+        <li><a href="">Ingresar</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section>
+
+        <div class="newhero">
+            <form action="">
+            <h2>Añadí tu super!</h2>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <div class="newhero-body">
+             <div class="form-group">
+                <label for="nombre">*Nombre</label>
+                <input type="text" id="nombre" name="nombre">
+             </div>
+             <div class="form-group">
+                <label for="especie">*Especie</label>
+                <select name="especie" id="especie">
+                  <option value="" disabled selected class="ph">Especie</option>
+                  <option value="1">Miau</option>
+                  <option value="2">Guau</option>
+                </select>
+             </div>
+             <div class="form-group">
+                <label for="fecha">Fecha</label>
+                <input type="date" id="fecha" name="fecha">
+             </div>
+             <div class="form-group">
+                <label for="foto">Agregar foto</label>
+                <input type="file" id="foto" name="foto">
+             </div>
+             <div class="form-group-choice">
+                <div class="form-group-textarea">
+                    <textarea id="comentarios" name="comentarios" placeholder="Descripcion"></textarea>
+                </div>
+                <div class="form-group-checks">
+                  <div class="form-group-last">
+                    <fieldset>
+                        <legend>Poderes</legend>
+                        <input type="checkbox" id="volar" name="poderes" value="Volar">
+                        <label for="volar">Volar</label><br>
+                    
+                        <input type="checkbox" id="superInteligencia" name="poderes" value="SuperInteligencia">
+                        <label for="superInteligencia">SuperInteligencia</label><br>
+                    
+                        <input type="checkbox" id="vistaRayoLaser" name="poderes" value="Vista de rayo láser">
+                        <label for="vistaRayoLaser">Vista de rayo láser</label><br>
+                    
+                        <input type="checkbox" id="billeteraGorda" name="poderes" value="Billetera gorda">
+                        <label for="billeteraGorda">Billetera gorda</label>
+                      </fieldset>
+                  </div>
+                  <hr>
+                  <div class="form-group-last">
+                    <fieldset>
+                        <legend>Tipo de personaje</legend>
+                        <input type="radio" id="heroe" name="tipoPersonaje" value="Heroe">
+                        <label for="heroe">Héroe / Heroína</label><br>
+                    
+                        <input type="radio" id="villano" name="tipoPersonaje" value="Villano">
+                        <label for="villano">Villano / Villana</label>
+                      </fieldset>
+                  </div>
+                </div>
+
+             </div>
+            </div>  
+            <button type="submit">
+                Añadir
+            </button> 
+        </form>
+        </div>
+    
+      </section>
+    </main>
+    <footer>Todos los derechos reservados a FRONT END 1</footer>
+  </body>
+</html>
