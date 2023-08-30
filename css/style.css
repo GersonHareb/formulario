@@ -297,7 +297,7 @@ input[type="radio"] {
   vertical-align: middle; 
 }
 
-button{
+.newhero button{
   position: absolute;
   width: 466px;
   height: 87px;
